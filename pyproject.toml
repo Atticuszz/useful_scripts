@@ -6,7 +6,7 @@ authors = ["Atticuszz <1831768457@qq.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.5"
 
 
 [build-system]
