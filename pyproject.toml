@@ -11,11 +11,10 @@ pywin32 = "^306"
 python-docx = "^1.1.0"
 
 [tool.poetry.scripts]
-translater = "useful_scripts.paths.translater:main"
-convert-links = "useful_scripts.markdown.convert_links:main"
-readme-handler = "useful_scripts.markdown.readme_handler:main"
-
-
+helper = 'useful_scripts.main:main'
+markdown = 'useful_scripts.markdown.main:main'
+pptx = 'useful_scripts.pptx.main:main'
+docx = 'useful_scripts.docx.main:main'
 
 
 [build-system]

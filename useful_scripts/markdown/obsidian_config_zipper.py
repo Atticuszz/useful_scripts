@@ -9,21 +9,26 @@ import logging
 from pathlib import Path
 import zipfile
 
-from markdown.common import ROOT_PATH
 from markdown.logs.config import setup_logging
 
 
-def zip_directory(folder_path, output_path):
-    folder_path = Path(folder_path)
-    output_path = Path(output_path)
+def zip_directory(root_path: Path | str):
+    root_path = Path(root_path) if isinstance(root_path, str) else root_path
+    # Specify the directory you want to zip
+    # Change to your specific folder path
+    folder_path = Path(root_path) / ".obsidian"
+
+    # Specify the output zip file path
+    # Change to your desired output path
+    output_path = Path(root_path) / "assets/obsidian.zip"
 
     # Ensure the output directory exists
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     # Create a ZipFile object
-    with zipfile.ZipFile(output_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
+    with zipfile.ZipFile(output_path, "w", zipfile.ZIP_DEFLATED) as zipf:
         # Walk through the directory
-        for file in folder_path.rglob('*'):
+        for file in folder_path.rglob("*"):
             if file.is_file():  # Make sure to only add files
                 # Create a relative path for files to keep the directory
                 # structure
@@ -31,16 +36,7 @@ def zip_directory(folder_path, output_path):
     logging.info(f"Created zip file at: {output_path}")
 
 
-# Specify the directory you want to zip
-# Change to your specific folder path
-directory_to_zip = ROOT_PATH / '.obsidian'
-
-# Specify the output zip file path
-# Change to your desired output path
-output_zip_file = ROOT_PATH / "assets/obsidian.zip"
-
-
 if __name__ == "__main__":
     setup_logging()
     # Call the function
-    zip_directory(directory_to_zip, output_zip_file)
+    zip_directory("C:/Users/18317/DevSpace/useful_scripts")

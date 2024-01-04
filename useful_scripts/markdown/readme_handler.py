@@ -94,6 +94,10 @@ class MarkdownHandler:
             parent = parent.parent
         return depth
 
+    def _check_path(self, path: Path | str):
+        if not path.exists():
+            raise FileNotFoundError(f"{path} not found!")
+
     def _create_links(self, output_file: Path, path: Path, level: int = 0) -> list:
         links = []
         depth = self._calculate_relative_depth(output_file)
@@ -112,22 +116,40 @@ class MarkdownHandler:
     def generate_nav_links_from_dir(
         self, output_file: Path | str, target_dir: str, title: str
     ):
+        """
+        Generate navigation links from the target directory.
+        :param output_file:
+        :param target_dir:
+        :param title:
+        """
         output_file = Path(output_file) if isinstance(output_file, str) else output_file
         tar_path = self.root_path / target_dir
-        if not tar_path.exists() or not tar_path.is_dir():
-            logging.error(f"TARGET_DIR not found at {tar_path}")
-            return
+        self._check_path(tar_path)
+        self._check_path(output_file)
         markdown_links = self._create_links(output_file, tar_path)
         self._update_md_content(output_file, "\n".join(markdown_links), title)
 
     def generate_recently_modified_from_git(
         self, output_file: Path | str, num_commits: int, target_dir: str, title: str
     ):
+        """
+        Generate recently modified files from git changes under the target directory.
+        :param output_file:
+        :param num_commits:
+        :param target_dir:
+        :param title:
+        """
         output_file = Path(output_file) if isinstance(output_file, str) else output_file
+        tar_path = self.root_path / target_dir
+        self._check_path(tar_path)
+        self._check_path(output_file)
         commit_changes = self.git_handler.get_recent_changes(num_commits)
+        # logging.info(f"Found {len(commit_changes)} commits")
+        # logging.info(f"git log: {commit_changes}")
         markdown_content = self._generate_markdown_from_git_changes(
             output_file, commit_changes, target_dir
         )
+        # logging.info(f"markdown content: {markdown_content}")
         self._update_md_content(output_file, markdown_content, title)
 
     def convert_wiki_links_in_dir(self, ext=".md"):
@@ -197,7 +219,8 @@ class MarkdownHandler:
         markdown_lines = []
         depth = self._calculate_relative_depth(output_file)
         prefix = "../" * depth
-
+        target_dir = Path(target_dir)
+        logging.info(f"target_dir: {target_dir}")
         for commit in commit_changes:
             markdown_lines.append(
                 f"### {commit['date']} by {commit['author']} - {commit['message']}"
@@ -208,9 +231,11 @@ class MarkdownHandler:
                 full_path = self.root_path / file_path
                 if (
                     not full_path.is_file()
-                    or not full_path.relative_to(self.root_path).parts[0] == target_dir
+                    or full_path.relative_to(self.root_path).parts[0]
+                    != target_dir.parts[0]
                 ):
                     # check if the file is in the target directory
+                    logging.info(f"Skipping {full_path}")
                     continue
                 emoji = status_emojis.get(status, "")
                 rel_path = full_path.relative_to(self.root_path)

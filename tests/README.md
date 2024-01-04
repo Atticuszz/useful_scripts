@@ -1,23 +1,11 @@
 
 ## 快捷导航
-- **logs/:**
-    - [config.py](../markdown/logs/config.py)
-    - [scripts.log](../markdown/logs/scripts.log)
-    - [__init__.py](../markdown/logs/__init__.py)
-  - [obsidian_config_zipper.py](../markdown/obsidian_config_zipper.py)
-  - [readme_handler.py](../markdown/readme_handler.py)
-  - [__init__.py](../markdown/__init__.py)
-- **__pycache__/:**
-    - [readme_handler.cpython-311.pyc](../markdown/__pycache__/readme_handler.cpython-311.pyc)
-    - [__init__.cpython-311.pyc](../markdown/__pycache__/__init__.cpython-311.pyc)
+  - [code_to_docx.py](../docx/code_to_docx.py)
+  - [__init__.py](../docx/__init__.py)
 ## 最近修改
 ### 2023-12-31 by Atticus Zhou - add markdown handle
-- ✨ [__init__.py](../markdown/__init__.py)
-- ✨ [__init__.py](../markdown/logs/__init__.py)
-- ✨ [config.py](../markdown/logs/config.py)
-- ✨ [scripts.log](../markdown/logs/scripts.log)
-- ✨ [obsidian_config_zipper.py](../markdown/obsidian_config_zipper.py)
-- ✨ [readme_handler.py](../markdown/readme_handler.py)
+- ✨ [__init__.py](../docx/__init__.py)
+- ✨ [code_to_docx.py](../docx/code_to_docx.py)
 ## 其他仓库
 - 比如后面有单独的项目GitHub链接
 
@@ -39,8 +27,8 @@
 	- 干嘛要装它？
 		- 这样，你得任何对指定目录下的文件都会被检测到，一旦commit(提交当前更改)，push(推送到GitHub云端)，obsidian+git插件会自动同步云端其他协作者的修改，这就达到了共同协作
 	 - 怎么安装？
-		 - [下载链接](https://git-scm.com/download/win) （选这**64-bit Git for Windows Setup.** 这个)
-		 - [安装指导](docs/tutorials/basic_tools/git-install-instruction)
+		 - [https://git-scm.com/download/win](https://git-scm.com/download/win) （选这**64-bit Git for Windows Setup.** 这个)
+		 - [安装教程](docs/tutorials/basic_tools/git-install-instruction)
 	- 安装完之后如何下载github仓库？
 		-  克隆仓库命令，选择[你合适的目录下打开命令行](docs/tutorials/shell/CMD)或者执行他 
 - https *网速太慢，考虑[开启代理](docs/tutorials/VCS/git)，代理也不行，考虑ssh*

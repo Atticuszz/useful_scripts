@@ -9,7 +9,7 @@ import json
 import os
 from pathlib import Path
 
-__all__ = ['print_directory_structure', 'find_path']
+__all__ = ["print_directory_structure", "find_path"]
 
 
 def generate_empty_mapping_file(directory_path, mapping_file_path):
@@ -20,12 +20,12 @@ def generate_empty_mapping_file(directory_path, mapping_file_path):
         if item.is_file() or item.is_dir():
             mapping[item.name] = ""
 
-    with open(mapping_file_path, 'w', encoding='utf-8') as f:
+    with open(mapping_file_path, "w", encoding="utf-8") as f:
         json.dump(mapping, f, ensure_ascii=False, indent=4)
 
 
 def load_mapping_file(mapping_file_path):
-    with open(mapping_file_path, 'r', encoding='utf-8') as f:
+    with open(mapping_file_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -57,15 +57,17 @@ def print_directory_structure(startpath: Path | str):
         "eslint-internal-rules",
         "demo",
         "example",
-        "resource"]
-    excluded_paths: list[Path] = [p for p in startpath.rglob(
-        '*') for ex in excluded if ex in p.as_posix()]
+        "resource",
+    ]
+    excluded_paths: list[Path] = [
+        p for p in startpath.rglob("*") for ex in excluded if ex in p.as_posix()
+    ]
 
     def recurse_folder(folder, prefix=""):
         # Get all entries in the folder
         entries = sorted(
             [e for e in folder.iterdir() if e not in excluded_paths],
-            key=lambda x: (x.is_file(), x.name)
+            key=lambda x: (x.is_file(), x.name),
         )
         for index, entry in enumerate(entries):
             connector = "├── " if index < len(entries) - 1 else "└── "
@@ -82,20 +84,20 @@ def find_path(path: Path | str):
     if isinstance(path, str):
         path = Path(path)
     import pprint
+
     i = 0
     paths = []
     for p in path.rglob("*"):
         i += 1
         print(f"check{i}th path")
-        if p.name.lower().startswith('.pycharm'):
+        if p.name.lower().startswith(".pycharm"):
             paths.append(p)
             break
-
 
     paths.sort()
     pprint.pprint(paths)
 
 
 if __name__ == "__main__":
-    # print_directory_structure(r'C:\Users\18317\python\useful_scripts')
-    find_path(r'C:\Users\18317')
+    print_directory_structure(r"C:\Users\18317\DevSpace\useful_scripts")
+    # find_path(r'C:\Users\18317')
