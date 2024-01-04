@@ -229,24 +229,29 @@ class MarkdownHandler:
             for change in commit["changes"]:
                 status, _, file_path, renamed = change
                 full_path = self.root_path / file_path
-                if (
-                    not full_path.is_file()
-                    or full_path.relative_to(self.root_path).parts[0]
-                    != target_dir.parts[0]
-                ):
-                    # check if the file is in the target directory
-                    logging.info(f"Skipping {full_path}")
-                    continue
                 emoji = status_emojis.get(status, "")
                 rel_path = full_path.relative_to(self.root_path)
 
                 # Handle renamed files
                 if status == "R" and renamed:
                     rel_renamed = Path(renamed)
+                    if not rel_renamed.exists():
+                        logging.warning(f"Skipping {rel_renamed} for not existing")
+                        continue
                     markdown_lines.append(
                         f"- {emoji} {self.markdown_formatter.generate_link(rel_renamed, prefix=prefix)} <- {full_path.name}"
                     )
                 else:
+                    if (
+                        not full_path.exists()
+                        or not full_path.is_file()
+                        or full_path.relative_to(self.root_path).parts[0]
+                        != target_dir.parts[0]
+                    ):
+                        # check if the file is in the target directory
+                        logging.warning(f"Skipping {full_path} for not in {target_dir}")
+                        continue
+
                     # No need to link deleted files
                     if status != "D":
                         linked_path = self.markdown_formatter.generate_link(

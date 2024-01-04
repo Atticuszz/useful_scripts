@@ -229,3 +229,143 @@
 2024-01-04 20:46:28,179 - root - INFO - Skipping C:\Users\18317\DevSpace\useful_scripts\path_translate\translater.py
 2024-01-04 20:46:28,180 - root - INFO - target_dir: useful_scripts
 2024-01-04 20:46:28,180 - root - INFO - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml
+2024-01-04 20:52:24,136 - root - INFO - target_dir: useful_scripts
+2024-01-04 20:52:24,137 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\git_toolbox_prj.xml for not in useful_scripts
+2024-01-04 20:52:24,138 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\README.MD for not in useful_scripts
+2024-01-04 20:52:24,138 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\main.py for not existing
+2024-01-04 20:52:24,138 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\logs\scripts.log for not existing
+2024-01-04 20:52:24,139 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:52:24,139 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\README.md for not in useful_scripts
+2024-01-04 20:52:24,140 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\md_test.py for not in useful_scripts
+2024-01-04 20:52:24,140 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\paths\__init__.py for not existing
+2024-01-04 20:52:24,141 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\docx\__init__.py for not existing
+2024-01-04 20:52:24,141 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\docx\code_to_docx.py for not existing
+2024-01-04 20:52:24,141 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\__init__.py for not existing
+2024-01-04 20:52:24,142 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\logs\__init__.py for not existing
+2024-01-04 20:52:24,142 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\logs\config.py for not existing
+2024-01-04 20:52:24,142 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\obsidian_config_zipper.py for not existing
+2024-01-04 20:52:24,142 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\readme_handler.py for not existing
+2024-01-04 20:52:24,143 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx\__init__.py for not existing
+2024-01-04 20:52:24,143 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\paths.py for not existing
+2024-01-04 20:52:24,143 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\paths\translater.py for not existing
+2024-01-04 20:52:24,144 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx\combine.py for not existing
+2024-01-04 20:52:24,144 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\GitLink.xml for not in useful_scripts
+2024-01-04 20:52:24,144 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\misc.xml for not in useful_scripts
+2024-01-04 20:52:24,144 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\ruff.xml for not in useful_scripts
+2024-01-04 20:52:24,145 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\useful_scripts.iml for not in useful_scripts
+2024-01-04 20:52:24,145 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\README.MD for not in useful_scripts
+2024-01-04 20:52:24,145 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\readme_handler.py for not existing
+2024-01-04 20:52:24,146 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\paths.py for not existing
+2024-01-04 20:52:24,146 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\poetry.lock for not in useful_scripts
+2024-01-04 20:52:24,146 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:52:24,147 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\README.md for not in useful_scripts
+2024-01-04 20:52:24,147 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\md_test.py for not in useful_scripts
+2024-01-04 20:52:24,147 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\docx\__init__.py for not existing
+2024-01-04 20:52:24,147 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\docx\code_to_docx.py for not existing
+2024-01-04 20:52:24,147 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\main.py for not existing
+2024-01-04 20:52:24,148 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\__init__.py for not existing
+2024-01-04 20:52:24,148 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\logs\__init__.py for not existing
+2024-01-04 20:52:24,148 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\logs\config.py for not existing
+2024-01-04 20:52:24,148 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\logs\scripts.log for not existing
+2024-01-04 20:52:24,149 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\obsidian_config_zipper.py for not existing
+2024-01-04 20:52:24,149 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\readme_handler.py for not existing
+2024-01-04 20:52:24,149 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\paths.py for not existing
+2024-01-04 20:52:24,149 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\path_translate\__init__.py for not existing
+2024-01-04 20:52:24,150 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\path_translate\translater.py for not existing
+2024-01-04 20:52:24,150 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\poetry.lock for not in useful_scripts
+2024-01-04 20:52:24,150 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx_tools\__init__.py for not existing
+2024-01-04 20:52:24,150 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx_tools\combine.py for not existing
+2024-01-04 20:52:24,151 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:52:24,151 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\README.md for not in useful_scripts
+2024-01-04 20:52:24,151 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\__init__.py for not in useful_scripts
+2024-01-04 20:52:24,151 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\md_test.py for not in useful_scripts
+2024-01-04 20:52:24,152 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\poetry.lock for not in useful_scripts
+2024-01-04 20:52:24,152 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx\combine.py for not existing
+2024-01-04 20:52:24,152 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx\__init__.py for not existing
+2024-01-04 20:52:24,152 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx_tools\combine.py for not existing
+2024-01-04 20:52:24,153 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:52:24,153 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.gitignore for not in useful_scripts
+2024-01-04 20:52:24,153 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\misc.xml for not in useful_scripts
+2024-01-04 20:52:24,153 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\poetry.xml for not in useful_scripts
+2024-01-04 20:52:24,154 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\ruff.xml for not in useful_scripts
+2024-01-04 20:52:24,154 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\useful_scripts.iml for not in useful_scripts
+2024-01-04 20:52:24,154 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\poetry.lock for not in useful_scripts
+2024-01-04 20:52:24,155 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx\__init__.py for not existing
+2024-01-04 20:52:24,155 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx\combine.py for not existing
+2024-01-04 20:52:24,155 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:52:24,156 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\.gitignore for not in useful_scripts
+2024-01-04 20:52:24,156 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\dbnavigator.xml for not in useful_scripts
+2024-01-04 20:52:24,156 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\inspectionProfiles\Project_Default.xml for not in useful_scripts
+2024-01-04 20:52:24,156 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\inspectionProfiles\profiles_settings.xml for not in useful_scripts
+2024-01-04 20:52:24,157 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\misc.xml for not in useful_scripts
+2024-01-04 20:52:24,157 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\modules.xml for not in useful_scripts
+2024-01-04 20:52:24,157 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\useful_scripts.iml for not in useful_scripts
+2024-01-04 20:52:24,157 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\vcs.xml for not in useful_scripts
+2024-01-04 20:52:24,158 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\main.py for not existing
+2024-01-04 20:52:24,158 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\path_translate\__init__.py for not existing
+2024-01-04 20:52:24,158 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\path_translate\translater.py for not existing
+2024-01-04 20:52:24,159 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:54:08,324 - root - INFO - target_dir: useful_scripts
+2024-01-04 20:54:08,325 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\git_toolbox_prj.xml for not in useful_scripts
+2024-01-04 20:54:08,326 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\README.MD for not in useful_scripts
+2024-01-04 20:54:08,326 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\main.py for not in useful_scripts
+2024-01-04 20:54:08,326 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\logs\scripts.log for not in useful_scripts
+2024-01-04 20:54:08,327 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:54:08,327 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\README.md for not in useful_scripts
+2024-01-04 20:54:08,327 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\md_test.py for not in useful_scripts
+2024-01-04 20:54:08,329 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\GitLink.xml for not in useful_scripts
+2024-01-04 20:54:08,330 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\misc.xml for not in useful_scripts
+2024-01-04 20:54:08,330 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\ruff.xml for not in useful_scripts
+2024-01-04 20:54:08,330 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\useful_scripts.iml for not in useful_scripts
+2024-01-04 20:54:08,331 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\README.MD for not in useful_scripts
+2024-01-04 20:54:08,331 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\readme_handler.py for not in useful_scripts
+2024-01-04 20:54:08,331 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\paths.py for not in useful_scripts
+2024-01-04 20:54:08,331 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\poetry.lock for not in useful_scripts
+2024-01-04 20:54:08,332 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:54:08,332 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\README.md for not in useful_scripts
+2024-01-04 20:54:08,332 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\md_test.py for not in useful_scripts
+2024-01-04 20:54:08,333 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\docx\__init__.py for not in useful_scripts
+2024-01-04 20:54:08,333 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\docx\code_to_docx.py for not in useful_scripts
+2024-01-04 20:54:08,333 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\main.py for not in useful_scripts
+2024-01-04 20:54:08,333 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\__init__.py for not in useful_scripts
+2024-01-04 20:54:08,334 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\logs\__init__.py for not in useful_scripts
+2024-01-04 20:54:08,334 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\logs\config.py for not in useful_scripts
+2024-01-04 20:54:08,334 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\logs\scripts.log for not in useful_scripts
+2024-01-04 20:54:08,334 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\obsidian_config_zipper.py for not in useful_scripts
+2024-01-04 20:54:08,335 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\markdown\readme_handler.py for not in useful_scripts
+2024-01-04 20:54:08,335 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\paths.py for not in useful_scripts
+2024-01-04 20:54:08,335 - root - WARNING - Skipping paths\__init__.py for not existing
+2024-01-04 20:54:08,335 - root - WARNING - Skipping paths\translater.py for not existing
+2024-01-04 20:54:08,336 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\poetry.lock for not in useful_scripts
+2024-01-04 20:54:08,336 - root - WARNING - Skipping pptx\__init__.py for not existing
+2024-01-04 20:54:08,336 - root - WARNING - Skipping pptx\combine.py for not existing
+2024-01-04 20:54:08,337 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:54:08,337 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\README.md for not in useful_scripts
+2024-01-04 20:54:08,337 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\__init__.py for not in useful_scripts
+2024-01-04 20:54:08,338 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\tests\md_test.py for not in useful_scripts
+2024-01-04 20:54:08,338 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\poetry.lock for not in useful_scripts
+2024-01-04 20:54:08,338 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx\combine.py for not in useful_scripts
+2024-01-04 20:54:08,338 - root - WARNING - Skipping pptx_tools\__init__.py for not existing
+2024-01-04 20:54:08,339 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx_tools\combine.py for not in useful_scripts
+2024-01-04 20:54:08,339 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:54:08,339 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.gitignore for not in useful_scripts
+2024-01-04 20:54:08,340 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\misc.xml for not in useful_scripts
+2024-01-04 20:54:08,340 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\poetry.xml for not in useful_scripts
+2024-01-04 20:54:08,340 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\ruff.xml for not in useful_scripts
+2024-01-04 20:54:08,341 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\useful_scripts.iml for not in useful_scripts
+2024-01-04 20:54:08,341 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\poetry.lock for not in useful_scripts
+2024-01-04 20:54:08,341 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx\__init__.py for not in useful_scripts
+2024-01-04 20:54:08,342 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pptx\combine.py for not in useful_scripts
+2024-01-04 20:54:08,342 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts
+2024-01-04 20:54:08,343 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\.gitignore for not in useful_scripts
+2024-01-04 20:54:08,343 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\dbnavigator.xml for not in useful_scripts
+2024-01-04 20:54:08,343 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\inspectionProfiles\Project_Default.xml for not in useful_scripts
+2024-01-04 20:54:08,344 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\inspectionProfiles\profiles_settings.xml for not in useful_scripts
+2024-01-04 20:54:08,344 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\misc.xml for not in useful_scripts
+2024-01-04 20:54:08,344 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\modules.xml for not in useful_scripts
+2024-01-04 20:54:08,345 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\useful_scripts.iml for not in useful_scripts
+2024-01-04 20:54:08,345 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\.idea\vcs.xml for not in useful_scripts
+2024-01-04 20:54:08,346 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\main.py for not in useful_scripts
+2024-01-04 20:54:08,346 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\path_translate\__init__.py for not in useful_scripts
+2024-01-04 20:54:08,346 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\path_translate\translater.py for not in useful_scripts
+2024-01-04 20:54:08,347 - root - WARNING - Skipping C:\Users\18317\DevSpace\useful_scripts\pyproject.toml for not in useful_scripts

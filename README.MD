@@ -1,4 +1,56 @@
 ## test
-
+- **docx/:**
+    - [code_to_docx.py](useful_scripts/docx/code_to_docx.py)
+    - [main.py](useful_scripts/docx/main.py)
+    - [__init__.py](useful_scripts/docx/__init__.py)
+  - [main.py](useful_scripts/main.py)
+- **markdown/:**
+  - **logs/:**
+      - [config.py](useful_scripts/markdown/logs/config.py)
+      - [scripts.log](useful_scripts/markdown/logs/scripts.log)
+      - [__init__.py](useful_scripts/markdown/logs/__init__.py)
+    - **__pycache__/:**
+        - [config.cpython-311.pyc](useful_scripts/markdown/logs/__pycache__/config.cpython-311.pyc)
+        - [__init__.cpython-311.pyc](useful_scripts/markdown/logs/__pycache__/__init__.cpython-311.pyc)
+    - [main.py](useful_scripts/markdown/main.py)
+    - [obsidian_config_zipper.py](useful_scripts/markdown/obsidian_config_zipper.py)
+    - [readme_handler.py](useful_scripts/markdown/readme_handler.py)
+    - [__init__.py](useful_scripts/markdown/__init__.py)
+  - **__pycache__/:**
+      - [main.cpython-311.pyc](useful_scripts/markdown/__pycache__/main.cpython-311.pyc)
+      - [readme_handler.cpython-311.pyc](useful_scripts/markdown/__pycache__/readme_handler.cpython-311.pyc)
+      - [__init__.cpython-311.pyc](useful_scripts/markdown/__pycache__/__init__.cpython-311.pyc)
+- **paths/:**
+    - [main.py](useful_scripts/paths/main.py)
+    - [paths.py](useful_scripts/paths/paths.py)
+    - [translater.py](useful_scripts/paths/translater.py)
+    - [__init__.py](useful_scripts/paths/__init__.py)
+- **pptx/:**
+    - [combine.py](useful_scripts/pptx/combine.py)
+    - [main.py](useful_scripts/pptx/main.py)
+    - [__init__.py](useful_scripts/pptx/__init__.py)
+  - [__init__.py](useful_scripts/__init__.py)
+- **__pycache__/:**
+    - [main.cpython-311.pyc](useful_scripts/__pycache__/main.cpython-311.pyc)
+    - [__init__.cpython-311.pyc](useful_scripts/__pycache__/__init__.cpython-311.pyc)
 ## test2
-
+### 2024-01-04 by Atticuszz - add cil
+- 🚚 [__init__.py](useful_scripts/__init__.py) <- __init__.py
+- 🚚 [__init__.py](useful_scripts/docx/__init__.py) <- __init__.py
+- 🚚 [code_to_docx.py](useful_scripts/docx/code_to_docx.py) <- code_to_docx.py
+- ✨ [main.py](useful_scripts/docx/main.py)
+- ✨ [main.py](useful_scripts/main.py)
+- 🚚 [__init__.py](useful_scripts/markdown/__init__.py) <- __init__.py
+- 🚚 [__init__.py](useful_scripts/markdown/logs/__init__.py) <- __init__.py
+- 🚚 [config.py](useful_scripts/markdown/logs/config.py) <- config.py
+- ✨ [scripts.log](useful_scripts/markdown/logs/scripts.log)
+- ✨ [main.py](useful_scripts/markdown/main.py)
+- 🚚 [obsidian_config_zipper.py](useful_scripts/markdown/obsidian_config_zipper.py) <- obsidian_config_zipper.py
+- 🚚 [readme_handler.py](useful_scripts/markdown/readme_handler.py) <- readme_handler.py
+- 🚚 [__init__.py](useful_scripts/paths/__init__.py) <- __init__.py
+- ✨ [main.py](useful_scripts/paths/main.py)
+- 🚚 [paths.py](useful_scripts/paths/paths.py) <- paths.py
+- 🚚 [translater.py](useful_scripts/paths/translater.py) <- translater.py
+- ✨ [__init__.py](useful_scripts/pptx/__init__.py)
+- 🚚 [combine.py](useful_scripts/pptx/combine.py) <- combine.py
+- ✨ [main.py](useful_scripts/pptx/main.py)
