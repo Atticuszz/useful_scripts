@@ -83,15 +83,19 @@ def find_path(path: Path | str):
         path = Path(path)
     import pprint
     i = 0
-    pahts = []
+    paths = []
     for p in path.rglob("*"):
         i += 1
         print(f"check{i}th path")
-        if (p.suffix == ".ppt" or p.suffix == ".pptx"):
-            pahts.append(p)
-    pahts.sort()
-    pprint.pprint(pahts)
+        if p.name.lower().startswith('.pycharm'):
+            paths.append(p)
+            break
+
+
+    paths.sort()
+    pprint.pprint(paths)
 
 
 if __name__ == "__main__":
-    print_directory_structure(r'C:\Users\18317\python\useful_scripts')
+    # print_directory_structure(r'C:\Users\18317\python\useful_scripts')
+    find_path(r'C:\Users\18317')

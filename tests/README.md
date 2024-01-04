@@ -1,17 +1,23 @@
 
 ## 快捷导航
 - **logs/:**
-    - [config.py](markdown/logs/config.py)
-    - [scripts.log](markdown/logs/scripts.log)
-    - [__init__.py](markdown/logs/__init__.py)
-  - [obsidian_config_zipper.py](markdown/obsidian_config_zipper.py)
-  - [readme_handler.py](markdown/readme_handler.py)
-  - [__init__.py](markdown/__init__.py)
+    - [config.py](../markdown/logs/config.py)
+    - [scripts.log](../markdown/logs/scripts.log)
+    - [__init__.py](../markdown/logs/__init__.py)
+  - [obsidian_config_zipper.py](../markdown/obsidian_config_zipper.py)
+  - [readme_handler.py](../markdown/readme_handler.py)
+  - [__init__.py](../markdown/__init__.py)
 - **__pycache__/:**
-    - [readme_handler.cpython-311.pyc](markdown/__pycache__/readme_handler.cpython-311.pyc)
-    - [__init__.cpython-311.pyc](markdown/__pycache__/__init__.cpython-311.pyc)
+    - [readme_handler.cpython-311.pyc](../markdown/__pycache__/readme_handler.cpython-311.pyc)
+    - [__init__.cpython-311.pyc](../markdown/__pycache__/__init__.cpython-311.pyc)
 ## 最近修改
-
+### 2023-12-31 by Atticus Zhou - add markdown handle
+- ✨ [__init__.py](../markdown/__init__.py)
+- ✨ [__init__.py](../markdown/logs/__init__.py)
+- ✨ [config.py](../markdown/logs/config.py)
+- ✨ [scripts.log](../markdown/logs/scripts.log)
+- ✨ [obsidian_config_zipper.py](../markdown/obsidian_config_zipper.py)
+- ✨ [readme_handler.py](../markdown/readme_handler.py)
 ## 其他仓库
 - 比如后面有单独的项目GitHub链接
 
